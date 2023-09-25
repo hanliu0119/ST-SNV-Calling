@@ -1,0 +1,27 @@
+#!/bin/bash
+#################
+#SBATCH --job-name=ST-D17
+#################  
+#SBATCH --output=ductal_VCF_all_17.out
+#################
+#SBATCH --error=ductal_VCF_all_17.err
+#################
+#SBATCH --time=7-00:00:00
+#SBATCH --account=cgw_maizie2
+#SBATCH --partition=cgw-maizie2
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=30
+#################
+#SBATCH --mem=500GB
+#################
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=han.liu.1@vanderbilt.edu
+
+#module load Anaconda3/2022.05
+#module load GCC/11.3.0
+#module load SAMtools/1.18
+
+echo "SLURM_JOBID: " $SLURM_JOBID
+
+python main.py

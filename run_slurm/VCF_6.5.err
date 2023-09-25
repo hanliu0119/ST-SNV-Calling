@@ -1,0 +1,380 @@
+
+Inactive Modules:
+  1) SAMtools/1.18     2) cURL/.7.83.0     3) ncurses/.6.3
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) XZ/.5.2.5     2) bzip2/.1.0.8
+
+The following have been reloaded with a version change:
+  1) GCC/11.3.0 => GCC/10.2.0               3) binutils/.2.38 => binutils/.2.35
+  2) GCCcore/.11.3.0 => GCCcore/.10.2.0     4) zlib/.1.2.12 => zlib/.1.2.11
+
+
+Activating Modules:
+  1) SAMtools/1.16.1     2) cURL/.7.72.0     3) ncurses/.6.2
+
+[bam_sort_core] merging from 214 files and 1 in-memory blocks...
+[bam_sort_core] merging from 108 files and 1 in-memory blocks...
+To execute picard run: java -jar $EBROOTPICARD/picard.jar
+    16:26:43.895 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/cvmfs/oasis.opensciencegrid.org/accre/mirror/common/easybuild/software/picard/2.17.10/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Thu Sep 21 16:26:43 CDT 2023] AddOrReplaceReadGroups INPUT=./data//CytAssist_FFPE_Protein_Expression_Human_Breast_Cancer_possorted_genome_bam/new.bam OUTPUT=./data/CytAssist_FFPE_Protein_Expression_Human_Breast_Cancer_possorted_genome_bam/new_rg.bam RGID=4 RGLB=lib1 RGPL=ILLUMINA RGPU=unit1 RGSM=20    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Thu Sep 21 16:26:43 CDT 2023] Executing as liuh40@maizie3.vampire on Linux 3.10.0-1160.71.1.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_162-b12; Deflater: Intel; Inflater: Intel; Picard version: 2.17.10-SNAPSHOT
+INFO	2023-09-21 16:26:43	AddOrReplaceReadGroups	Created read-group ID=4 PL=ILLUMINA LB=lib1 SM=20
+
+INFO	2023-09-21 16:26:52	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    8s.  Last read position: chr1:11,054,996
+INFO	2023-09-21 16:27:02	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:18s.  Time for last 1,000,000:    9s.  Last read position: chr1:23,961,066
+INFO	2023-09-21 16:27:10	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:    8s.  Last read position: chr1:27,850,469
+INFO	2023-09-21 16:27:19	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    8s.  Last read position: chr1:37,569,203
+INFO	2023-09-21 16:27:27	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    8s.  Last read position: chr1:47,272,130
+INFO	2023-09-21 16:27:36	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    9s.  Last read position: chr1:66,981,890
+INFO	2023-09-21 16:27:44	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    8s.  Last read position: chr1:87,332,103
+INFO	2023-09-21 16:27:52	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    8s.  Last read position: chr1:109,200,891
+INFO	2023-09-21 16:28:02	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    9s.  Last read position: chr1:145,926,568
+INFO	2023-09-21 16:28:11	AddOrReplaceReadGroups	Processed    10,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    9s.  Last read position: chr1:151,405,469
+INFO	2023-09-21 16:28:20	AddOrReplaceReadGroups	Processed    11,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    8s.  Last read position: chr1:155,131,352
+INFO	2023-09-21 16:28:27	AddOrReplaceReadGroups	Processed    12,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    7s.  Last read position: chr1:159,053,652
+INFO	2023-09-21 16:28:37	AddOrReplaceReadGroups	Processed    13,000,000 records.  Elapsed time: 00:01:53s.  Time for last 1,000,000:    9s.  Last read position: chr1:167,548,076
+INFO	2023-09-21 16:28:45	AddOrReplaceReadGroups	Processed    14,000,000 records.  Elapsed time: 00:02:01s.  Time for last 1,000,000:    8s.  Last read position: chr1:182,884,766
+INFO	2023-09-21 16:28:56	AddOrReplaceReadGroups	Processed    15,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:   10s.  Last read position: chr1:204,530,786
+INFO	2023-09-21 16:29:05	AddOrReplaceReadGroups	Processed    16,000,000 records.  Elapsed time: 00:02:21s.  Time for last 1,000,000:    8s.  Last read position: chr1:222,654,698
+INFO	2023-09-21 16:29:13	AddOrReplaceReadGroups	Processed    17,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:    7s.  Last read position: chr1:235,260,674
+INFO	2023-09-21 16:29:20	AddOrReplaceReadGroups	Processed    18,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:    7s.  Last read position: chr10:13,283,788
+INFO	2023-09-21 16:29:32	AddOrReplaceReadGroups	Processed    19,000,000 records.  Elapsed time: 00:02:48s.  Time for last 1,000,000:   11s.  Last read position: chr10:32,456,253
+INFO	2023-09-21 16:29:40	AddOrReplaceReadGroups	Processed    20,000,000 records.  Elapsed time: 00:02:56s.  Time for last 1,000,000:    8s.  Last read position: chr10:69,200,380
+INFO	2023-09-21 16:29:50	AddOrReplaceReadGroups	Processed    21,000,000 records.  Elapsed time: 00:03:06s.  Time for last 1,000,000:    9s.  Last read position: chr10:89,339,451
+INFO	2023-09-21 16:30:00	AddOrReplaceReadGroups	Processed    22,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:   10s.  Last read position: chr10:101,799,402
+INFO	2023-09-21 16:30:08	AddOrReplaceReadGroups	Processed    23,000,000 records.  Elapsed time: 00:03:24s.  Time for last 1,000,000:    8s.  Last read position: chr10:119,069,639
+INFO	2023-09-21 16:30:19	AddOrReplaceReadGroups	Processed    24,000,000 records.  Elapsed time: 00:03:35s.  Time for last 1,000,000:   10s.  Last read position: chr11:900,022
+INFO	2023-09-21 16:30:28	AddOrReplaceReadGroups	Processed    25,000,000 records.  Elapsed time: 00:03:44s.  Time for last 1,000,000:    9s.  Last read position: chr11:28,094,729
+INFO	2023-09-21 16:30:36	AddOrReplaceReadGroups	Processed    26,000,000 records.  Elapsed time: 00:03:52s.  Time for last 1,000,000:    8s.  Last read position: chr11:57,809,428
+INFO	2023-09-21 16:30:44	AddOrReplaceReadGroups	Processed    27,000,000 records.  Elapsed time: 00:04:00s.  Time for last 1,000,000:    7s.  Last read position: chr11:63,749,994
+INFO	2023-09-21 16:30:52	AddOrReplaceReadGroups	Processed    28,000,000 records.  Elapsed time: 00:04:08s.  Time for last 1,000,000:    8s.  Last read position: chr11:66,060,679
+INFO	2023-09-21 16:31:01	AddOrReplaceReadGroups	Processed    29,000,000 records.  Elapsed time: 00:04:17s.  Time for last 1,000,000:    8s.  Last read position: chr11:73,976,701
+INFO	2023-09-21 16:31:10	AddOrReplaceReadGroups	Processed    30,000,000 records.  Elapsed time: 00:04:26s.  Time for last 1,000,000:    9s.  Last read position: chr11:111,882,478
+INFO	2023-09-21 16:31:20	AddOrReplaceReadGroups	Processed    31,000,000 records.  Elapsed time: 00:04:36s.  Time for last 1,000,000:    9s.  Last read position: chr11:130,127,814
+INFO	2023-09-21 16:31:30	AddOrReplaceReadGroups	Processed    32,000,000 records.  Elapsed time: 00:04:46s.  Time for last 1,000,000:    9s.  Last read position: chr12:8,060,132
+INFO	2023-09-21 16:31:38	AddOrReplaceReadGroups	Processed    33,000,000 records.  Elapsed time: 00:04:54s.  Time for last 1,000,000:    8s.  Last read position: chr12:14,882,262
+INFO	2023-09-21 16:31:47	AddOrReplaceReadGroups	Processed    34,000,000 records.  Elapsed time: 00:05:03s.  Time for last 1,000,000:    8s.  Last read position: chr12:27,028,323
+INFO	2023-09-21 16:31:57	AddOrReplaceReadGroups	Processed    35,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:   10s.  Last read position: chr12:49,003,145
+INFO	2023-09-21 16:32:05	AddOrReplaceReadGroups	Processed    36,000,000 records.  Elapsed time: 00:05:21s.  Time for last 1,000,000:    8s.  Last read position: chr12:54,855,132
+INFO	2023-09-21 16:32:13	AddOrReplaceReadGroups	Processed    37,000,000 records.  Elapsed time: 00:05:29s.  Time for last 1,000,000:    7s.  Last read position: chr12:64,484,370
+INFO	2023-09-21 16:32:23	AddOrReplaceReadGroups	Processed    38,000,000 records.  Elapsed time: 00:05:39s.  Time for last 1,000,000:    9s.  Last read position: chr12:92,144,253
+INFO	2023-09-21 16:32:33	AddOrReplaceReadGroups	Processed    39,000,000 records.  Elapsed time: 00:05:49s.  Time for last 1,000,000:   10s.  Last read position: chr12:108,560,939
+INFO	2023-09-21 16:32:43	AddOrReplaceReadGroups	Processed    40,000,000 records.  Elapsed time: 00:05:59s.  Time for last 1,000,000:    9s.  Last read position: chr12:120,131,222
+INFO	2023-09-21 16:32:51	AddOrReplaceReadGroups	Processed    41,000,000 records.  Elapsed time: 00:06:07s.  Time for last 1,000,000:    8s.  Last read position: chr12:132,717,531
+INFO	2023-09-21 16:33:00	AddOrReplaceReadGroups	Processed    42,000,000 records.  Elapsed time: 00:06:16s.  Time for last 1,000,000:    8s.  Last read position: chr13:41,325,745
+INFO	2023-09-21 16:33:08	AddOrReplaceReadGroups	Processed    43,000,000 records.  Elapsed time: 00:06:24s.  Time for last 1,000,000:    8s.  Last read position: chr13:99,295,604
+INFO	2023-09-21 16:33:16	AddOrReplaceReadGroups	Processed    44,000,000 records.  Elapsed time: 00:06:32s.  Time for last 1,000,000:    8s.  Last read position: chr14:22,773,641
+INFO	2023-09-21 16:33:24	AddOrReplaceReadGroups	Processed    45,000,000 records.  Elapsed time: 00:06:40s.  Time for last 1,000,000:    8s.  Last read position: chr14:34,603,413
+INFO	2023-09-21 16:33:33	AddOrReplaceReadGroups	Processed    46,000,000 records.  Elapsed time: 00:06:49s.  Time for last 1,000,000:    8s.  Last read position: chr14:59,476,212
+INFO	2023-09-21 16:33:41	AddOrReplaceReadGroups	Processed    47,000,000 records.  Elapsed time: 00:06:57s.  Time for last 1,000,000:    8s.  Last read position: chr14:75,683,550
+INFO	2023-09-21 16:33:52	AddOrReplaceReadGroups	Processed    48,000,000 records.  Elapsed time: 00:07:08s.  Time for last 1,000,000:   11s.  Last read position: chr14:99,463,573
+INFO	2023-09-21 16:34:00	AddOrReplaceReadGroups	Processed    49,000,000 records.  Elapsed time: 00:07:16s.  Time for last 1,000,000:    8s.  Last read position: chr14:105,644,543
+INFO	2023-09-21 16:34:10	AddOrReplaceReadGroups	Processed    50,000,000 records.  Elapsed time: 00:07:26s.  Time for last 1,000,000:   10s.  Last read position: chr14:105,742,353
+INFO	2023-09-21 16:34:19	AddOrReplaceReadGroups	Processed    51,000,000 records.  Elapsed time: 00:07:35s.  Time for last 1,000,000:    8s.  Last read position: chr14:105,742,803
+INFO	2023-09-21 16:34:30	AddOrReplaceReadGroups	Processed    52,000,000 records.  Elapsed time: 00:07:46s.  Time for last 1,000,000:   10s.  Last read position: chr14:105,770,700
+INFO	2023-09-21 16:34:38	AddOrReplaceReadGroups	Processed    53,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:    8s.  Last read position: chr15:43,793,019
+INFO	2023-09-21 16:34:48	AddOrReplaceReadGroups	Processed    54,000,000 records.  Elapsed time: 00:08:04s.  Time for last 1,000,000:    9s.  Last read position: chr15:57,263,189
+INFO	2023-09-21 16:34:56	AddOrReplaceReadGroups	Processed    55,000,000 records.  Elapsed time: 00:08:12s.  Time for last 1,000,000:    7s.  Last read position: chr15:70,668,806
+INFO	2023-09-21 16:35:05	AddOrReplaceReadGroups	Processed    56,000,000 records.  Elapsed time: 00:08:21s.  Time for last 1,000,000:    9s.  Last read position: chr15:84,669,950
+INFO	2023-09-21 16:35:13	AddOrReplaceReadGroups	Processed    57,000,000 records.  Elapsed time: 00:08:30s.  Time for last 1,000,000:    8s.  Last read position: chr16:730,887
+INFO	2023-09-21 16:35:22	AddOrReplaceReadGroups	Processed    58,000,000 records.  Elapsed time: 00:08:38s.  Time for last 1,000,000:    8s.  Last read position: chr16:5,047,957
+INFO	2023-09-21 16:35:30	AddOrReplaceReadGroups	Processed    59,000,000 records.  Elapsed time: 00:08:46s.  Time for last 1,000,000:    8s.  Last read position: chr16:27,235,177
+INFO	2023-09-21 16:35:38	AddOrReplaceReadGroups	Processed    60,000,000 records.  Elapsed time: 00:08:54s.  Time for last 1,000,000:    8s.  Last read position: chr16:31,753,831
+INFO	2023-09-21 16:35:47	AddOrReplaceReadGroups	Processed    61,000,000 records.  Elapsed time: 00:09:03s.  Time for last 1,000,000:    9s.  Last read position: chr16:67,865,111
+INFO	2023-09-21 16:35:55	AddOrReplaceReadGroups	Processed    62,000,000 records.  Elapsed time: 00:09:11s.  Time for last 1,000,000:    8s.  Last read position: chr16:88,716,101
+INFO	2023-09-21 16:36:03	AddOrReplaceReadGroups	Processed    63,000,000 records.  Elapsed time: 00:09:19s.  Time for last 1,000,000:    8s.  Last read position: chr17:5,453,823
+INFO	2023-09-21 16:36:11	AddOrReplaceReadGroups	Processed    64,000,000 records.  Elapsed time: 00:09:27s.  Time for last 1,000,000:    8s.  Last read position: chr17:18,317,999
+INFO	2023-09-21 16:36:20	AddOrReplaceReadGroups	Processed    65,000,000 records.  Elapsed time: 00:09:36s.  Time for last 1,000,000:    8s.  Last read position: chr17:36,545,898
+INFO	2023-09-21 16:36:28	AddOrReplaceReadGroups	Processed    66,000,000 records.  Elapsed time: 00:09:44s.  Time for last 1,000,000:    8s.  Last read position: chr17:42,570,143
+INFO	2023-09-21 16:36:36	AddOrReplaceReadGroups	Processed    67,000,000 records.  Elapsed time: 00:09:52s.  Time for last 1,000,000:    8s.  Last read position: chr17:49,404,639
+INFO	2023-09-21 16:36:44	AddOrReplaceReadGroups	Processed    68,000,000 records.  Elapsed time: 00:10:00s.  Time for last 1,000,000:    8s.  Last read position: chr17:59,863,732
+INFO	2023-09-21 16:36:52	AddOrReplaceReadGroups	Processed    69,000,000 records.  Elapsed time: 00:10:08s.  Time for last 1,000,000:    8s.  Last read position: chr17:67,167,720
+INFO	2023-09-21 16:37:00	AddOrReplaceReadGroups	Processed    70,000,000 records.  Elapsed time: 00:10:16s.  Time for last 1,000,000:    7s.  Last read position: chr17:75,702,564
+INFO	2023-09-21 16:37:08	AddOrReplaceReadGroups	Processed    71,000,000 records.  Elapsed time: 00:10:24s.  Time for last 1,000,000:    8s.  Last read position: chr17:78,171,776
+INFO	2023-09-21 16:37:17	AddOrReplaceReadGroups	Processed    72,000,000 records.  Elapsed time: 00:10:33s.  Time for last 1,000,000:    8s.  Last read position: chr17:81,510,656
+INFO	2023-09-21 16:37:25	AddOrReplaceReadGroups	Processed    73,000,000 records.  Elapsed time: 00:10:41s.  Time for last 1,000,000:    7s.  Last read position: chr18:724,144
+INFO	2023-09-21 16:37:33	AddOrReplaceReadGroups	Processed    74,000,000 records.  Elapsed time: 00:10:49s.  Time for last 1,000,000:    7s.  Last read position: chr18:36,027,219
+INFO	2023-09-21 16:37:42	AddOrReplaceReadGroups	Processed    75,000,000 records.  Elapsed time: 00:10:58s.  Time for last 1,000,000:    9s.  Last read position: chr18:49,257,013
+INFO	2023-09-21 16:37:51	AddOrReplaceReadGroups	Processed    76,000,000 records.  Elapsed time: 00:11:07s.  Time for last 1,000,000:    9s.  Last read position: chr18:79,096,610
+INFO	2023-09-21 16:37:59	AddOrReplaceReadGroups	Processed    77,000,000 records.  Elapsed time: 00:11:15s.  Time for last 1,000,000:    7s.  Last read position: chr19:2,271,802
+INFO	2023-09-21 16:38:07	AddOrReplaceReadGroups	Processed    78,000,000 records.  Elapsed time: 00:11:23s.  Time for last 1,000,000:    7s.  Last read position: chr19:7,647,162
+INFO	2023-09-21 16:38:15	AddOrReplaceReadGroups	Processed    79,000,000 records.  Elapsed time: 00:11:31s.  Time for last 1,000,000:    7s.  Last read position: chr19:12,801,235
+INFO	2023-09-21 16:38:23	AddOrReplaceReadGroups	Processed    80,000,000 records.  Elapsed time: 00:11:39s.  Time for last 1,000,000:    7s.  Last read position: chr19:17,404,411
+INFO	2023-09-21 16:38:32	AddOrReplaceReadGroups	Processed    81,000,000 records.  Elapsed time: 00:11:48s.  Time for last 1,000,000:    9s.  Last read position: chr19:30,012,363
+INFO	2023-09-21 16:38:42	AddOrReplaceReadGroups	Processed    82,000,000 records.  Elapsed time: 00:11:58s.  Time for last 1,000,000:    9s.  Last read position: chr19:40,586,918
+INFO	2023-09-21 16:38:52	AddOrReplaceReadGroups	Processed    83,000,000 records.  Elapsed time: 00:12:08s.  Time for last 1,000,000:    9s.  Last read position: chr19:47,781,124
+INFO	2023-09-21 16:39:02	AddOrReplaceReadGroups	Processed    84,000,000 records.  Elapsed time: 00:12:18s.  Time for last 1,000,000:   10s.  Last read position: chr19:56,549,072
+INFO	2023-09-21 16:39:10	AddOrReplaceReadGroups	Processed    85,000,000 records.  Elapsed time: 00:12:26s.  Time for last 1,000,000:    8s.  Last read position: chr2:23,999,720
+INFO	2023-09-21 16:39:18	AddOrReplaceReadGroups	Processed    86,000,000 records.  Elapsed time: 00:12:35s.  Time for last 1,000,000:    8s.  Last read position: chr2:37,147,739
+INFO	2023-09-21 16:39:26	AddOrReplaceReadGroups	Processed    87,000,000 records.  Elapsed time: 00:12:43s.  Time for last 1,000,000:    8s.  Last read position: chr2:55,263,755
+INFO	2023-09-21 16:39:36	AddOrReplaceReadGroups	Processed    88,000,000 records.  Elapsed time: 00:12:52s.  Time for last 1,000,000:    9s.  Last read position: chr2:74,159,125
+INFO	2023-09-21 16:39:44	AddOrReplaceReadGroups	Processed    89,000,000 records.  Elapsed time: 00:13:00s.  Time for last 1,000,000:    7s.  Last read position: chr2:85,623,673
+INFO	2023-09-21 16:39:52	AddOrReplaceReadGroups	Processed    90,000,000 records.  Elapsed time: 00:13:08s.  Time for last 1,000,000:    8s.  Last read position: chr2:88,857,509
+INFO	2023-09-21 16:40:01	AddOrReplaceReadGroups	Processed    91,000,000 records.  Elapsed time: 00:13:17s.  Time for last 1,000,000:    8s.  Last read position: chr2:88,857,509
+INFO	2023-09-21 16:40:12	AddOrReplaceReadGroups	Processed    92,000,000 records.  Elapsed time: 00:13:28s.  Time for last 1,000,000:   11s.  Last read position: chr2:88,857,509
+INFO	2023-09-21 16:40:20	AddOrReplaceReadGroups	Processed    93,000,000 records.  Elapsed time: 00:13:36s.  Time for last 1,000,000:    8s.  Last read position: chr2:88,857,509
+INFO	2023-09-21 16:40:31	AddOrReplaceReadGroups	Processed    94,000,000 records.  Elapsed time: 00:13:47s.  Time for last 1,000,000:   11s.  Last read position: chr2:88,857,509
+INFO	2023-09-21 16:40:41	AddOrReplaceReadGroups	Processed    95,000,000 records.  Elapsed time: 00:13:57s.  Time for last 1,000,000:    9s.  Last read position: chr2:88,857,569
+INFO	2023-09-21 16:40:50	AddOrReplaceReadGroups	Processed    96,000,000 records.  Elapsed time: 00:14:06s.  Time for last 1,000,000:    8s.  Last read position: chr2:88,857,569
+INFO	2023-09-21 16:41:02	AddOrReplaceReadGroups	Processed    97,000,000 records.  Elapsed time: 00:14:18s.  Time for last 1,000,000:   11s.  Last read position: chr2:88,857,569
+INFO	2023-09-21 16:41:10	AddOrReplaceReadGroups	Processed    98,000,000 records.  Elapsed time: 00:14:26s.  Time for last 1,000,000:    8s.  Last read position: chr2:88,857,569
+INFO	2023-09-21 16:41:19	AddOrReplaceReadGroups	Processed    99,000,000 records.  Elapsed time: 00:14:35s.  Time for last 1,000,000:    8s.  Last read position: chr2:88,857,569
+INFO	2023-09-21 16:41:27	AddOrReplaceReadGroups	Processed   100,000,000 records.  Elapsed time: 00:14:43s.  Time for last 1,000,000:    7s.  Last read position: chr2:88,857,633
+INFO	2023-09-21 16:41:35	AddOrReplaceReadGroups	Processed   101,000,000 records.  Elapsed time: 00:14:51s.  Time for last 1,000,000:    7s.  Last read position: chr2:88,857,633
+INFO	2023-09-21 16:41:44	AddOrReplaceReadGroups	Processed   102,000,000 records.  Elapsed time: 00:15:00s.  Time for last 1,000,000:    9s.  Last read position: chr2:88,857,633
+INFO	2023-09-21 16:41:53	AddOrReplaceReadGroups	Processed   103,000,000 records.  Elapsed time: 00:15:09s.  Time for last 1,000,000:    8s.  Last read position: chr2:88,857,633
+INFO	2023-09-21 16:42:01	AddOrReplaceReadGroups	Processed   104,000,000 records.  Elapsed time: 00:15:17s.  Time for last 1,000,000:    8s.  Last read position: chr2:97,657,487
+INFO	2023-09-21 16:42:11	AddOrReplaceReadGroups	Processed   105,000,000 records.  Elapsed time: 00:15:27s.  Time for last 1,000,000:   10s.  Last read position: chr2:127,307,669
+INFO	2023-09-21 16:42:20	AddOrReplaceReadGroups	Processed   106,000,000 records.  Elapsed time: 00:15:36s.  Time for last 1,000,000:    8s.  Last read position: chr2:159,282,894
+INFO	2023-09-21 16:42:29	AddOrReplaceReadGroups	Processed   107,000,000 records.  Elapsed time: 00:15:45s.  Time for last 1,000,000:    9s.  Last read position: chr2:186,508,559
+INFO	2023-09-21 16:42:37	AddOrReplaceReadGroups	Processed   108,000,000 records.  Elapsed time: 00:15:53s.  Time for last 1,000,000:    7s.  Last read position: chr2:200,981,419
+INFO	2023-09-21 16:42:47	AddOrReplaceReadGroups	Processed   109,000,000 records.  Elapsed time: 00:16:03s.  Time for last 1,000,000:    9s.  Last read position: chr2:219,250,356
+INFO	2023-09-21 16:42:57	AddOrReplaceReadGroups	Processed   110,000,000 records.  Elapsed time: 00:16:13s.  Time for last 1,000,000:    9s.  Last read position: chr2:237,753,390
+INFO	2023-09-21 16:43:06	AddOrReplaceReadGroups	Processed   111,000,000 records.  Elapsed time: 00:16:22s.  Time for last 1,000,000:    9s.  Last read position: chr20:13,534,058
+INFO	2023-09-21 16:43:16	AddOrReplaceReadGroups	Processed   112,000,000 records.  Elapsed time: 00:16:32s.  Time for last 1,000,000:    9s.  Last read position: chr20:34,559,824
+INFO	2023-09-21 16:43:25	AddOrReplaceReadGroups	Processed   113,000,000 records.  Elapsed time: 00:16:41s.  Time for last 1,000,000:    8s.  Last read position: chr20:45,330,415
+INFO	2023-09-21 16:43:36	AddOrReplaceReadGroups	Processed   114,000,000 records.  Elapsed time: 00:16:52s.  Time for last 1,000,000:   11s.  Last read position: chr20:58,418,314
+INFO	2023-09-21 16:43:44	AddOrReplaceReadGroups	Processed   115,000,000 records.  Elapsed time: 00:17:00s.  Time for last 1,000,000:    8s.  Last read position: chr21:17,796,588
+INFO	2023-09-21 16:43:54	AddOrReplaceReadGroups	Processed   116,000,000 records.  Elapsed time: 00:17:10s.  Time for last 1,000,000:    9s.  Last read position: chr21:41,446,037
+INFO	2023-09-21 16:44:02	AddOrReplaceReadGroups	Processed   117,000,000 records.  Elapsed time: 00:17:18s.  Time for last 1,000,000:    8s.  Last read position: chr22:19,964,205
+INFO	2023-09-21 16:44:11	AddOrReplaceReadGroups	Processed   118,000,000 records.  Elapsed time: 00:17:27s.  Time for last 1,000,000:    8s.  Last read position: chr22:22,901,256
+INFO	2023-09-21 16:44:22	AddOrReplaceReadGroups	Processed   119,000,000 records.  Elapsed time: 00:17:38s.  Time for last 1,000,000:   11s.  Last read position: chr22:22,906,451
+INFO	2023-09-21 16:44:30	AddOrReplaceReadGroups	Processed   120,000,000 records.  Elapsed time: 00:17:46s.  Time for last 1,000,000:    8s.  Last read position: chr22:29,273,792
+INFO	2023-09-21 16:44:42	AddOrReplaceReadGroups	Processed   121,000,000 records.  Elapsed time: 00:17:58s.  Time for last 1,000,000:   11s.  Last read position: chr22:38,780,987
+INFO	2023-09-21 16:44:52	AddOrReplaceReadGroups	Processed   122,000,000 records.  Elapsed time: 00:18:08s.  Time for last 1,000,000:   10s.  Last read position: chr22:50,530,493
+INFO	2023-09-21 16:45:02	AddOrReplaceReadGroups	Processed   123,000,000 records.  Elapsed time: 00:18:18s.  Time for last 1,000,000:    9s.  Last read position: chr3:25,778,609
+INFO	2023-09-21 16:45:10	AddOrReplaceReadGroups	Processed   124,000,000 records.  Elapsed time: 00:18:26s.  Time for last 1,000,000:    8s.  Last read position: chr3:46,450,657
+INFO	2023-09-21 16:45:19	AddOrReplaceReadGroups	Processed   125,000,000 records.  Elapsed time: 00:18:35s.  Time for last 1,000,000:    8s.  Last read position: chr3:52,476,590
+INFO	2023-09-21 16:45:28	AddOrReplaceReadGroups	Processed   126,000,000 records.  Elapsed time: 00:18:44s.  Time for last 1,000,000:    9s.  Last read position: chr3:88,055,524
+INFO	2023-09-21 16:45:42	AddOrReplaceReadGroups	Processed   127,000,000 records.  Elapsed time: 00:18:58s.  Time for last 1,000,000:   13s.  Last read position: chr3:122,427,572
+INFO	2023-09-21 16:45:51	AddOrReplaceReadGroups	Processed   128,000,000 records.  Elapsed time: 00:19:07s.  Time for last 1,000,000:    9s.  Last read position: chr3:136,736,405
+INFO	2023-09-21 16:46:00	AddOrReplaceReadGroups	Processed   129,000,000 records.  Elapsed time: 00:19:16s.  Time for last 1,000,000:    8s.  Last read position: chr3:158,824,145
+INFO	2023-09-21 16:46:09	AddOrReplaceReadGroups	Processed   130,000,000 records.  Elapsed time: 00:19:25s.  Time for last 1,000,000:    9s.  Last read position: chr3:186,785,027
+INFO	2023-09-21 16:46:18	AddOrReplaceReadGroups	Processed   131,000,000 records.  Elapsed time: 00:19:34s.  Time for last 1,000,000:    9s.  Last read position: chr4:2,240,133
+INFO	2023-09-21 16:46:28	AddOrReplaceReadGroups	Processed   132,000,000 records.  Elapsed time: 00:19:45s.  Time for last 1,000,000:   10s.  Last read position: chr4:26,430,870
+INFO	2023-09-21 16:46:37	AddOrReplaceReadGroups	Processed   133,000,000 records.  Elapsed time: 00:19:53s.  Time for last 1,000,000:    8s.  Last read position: chr4:56,474,055
+INFO	2023-09-21 16:46:49	AddOrReplaceReadGroups	Processed   134,000,000 records.  Elapsed time: 00:20:05s.  Time for last 1,000,000:   11s.  Last read position: chr4:77,066,267
+INFO	2023-09-21 16:47:01	AddOrReplaceReadGroups	Processed   135,000,000 records.  Elapsed time: 00:20:17s.  Time for last 1,000,000:   12s.  Last read position: chr4:102,797,399
+INFO	2023-09-21 16:47:11	AddOrReplaceReadGroups	Processed   136,000,000 records.  Elapsed time: 00:20:27s.  Time for last 1,000,000:    9s.  Last read position: chr4:143,521,499
+INFO	2023-09-21 16:47:20	AddOrReplaceReadGroups	Processed   137,000,000 records.  Elapsed time: 00:20:36s.  Time for last 1,000,000:    9s.  Last read position: chr5:871,536
+INFO	2023-09-21 16:47:30	AddOrReplaceReadGroups	Processed   138,000,000 records.  Elapsed time: 00:20:46s.  Time for last 1,000,000:    9s.  Last read position: chr5:50,828,345
+INFO	2023-09-21 16:47:41	AddOrReplaceReadGroups	Processed   139,000,000 records.  Elapsed time: 00:20:57s.  Time for last 1,000,000:   11s.  Last read position: chr5:74,720,507
+INFO	2023-09-21 16:47:57	AddOrReplaceReadGroups	Processed   140,000,000 records.  Elapsed time: 00:21:13s.  Time for last 1,000,000:   15s.  Last read position: chr5:109,845,938
+INFO	2023-09-21 16:48:07	AddOrReplaceReadGroups	Processed   141,000,000 records.  Elapsed time: 00:21:23s.  Time for last 1,000,000:   10s.  Last read position: chr5:134,781,213
+INFO	2023-09-21 16:48:16	AddOrReplaceReadGroups	Processed   142,000,000 records.  Elapsed time: 00:21:32s.  Time for last 1,000,000:    8s.  Last read position: chr5:150,077,329
+INFO	2023-09-21 16:48:29	AddOrReplaceReadGroups	Processed   143,000,000 records.  Elapsed time: 00:21:45s.  Time for last 1,000,000:   13s.  Last read position: chr5:171,891,546
+INFO	2023-09-21 16:48:40	AddOrReplaceReadGroups	Processed   144,000,000 records.  Elapsed time: 00:21:56s.  Time for last 1,000,000:   10s.  Last read position: chr5:181,243,700
+INFO	2023-09-21 16:48:50	AddOrReplaceReadGroups	Processed   145,000,000 records.  Elapsed time: 00:22:06s.  Time for last 1,000,000:   10s.  Last read position: chr6:13,806,929
+INFO	2023-09-21 16:48:59	AddOrReplaceReadGroups	Processed   146,000,000 records.  Elapsed time: 00:22:16s.  Time for last 1,000,000:    9s.  Last read position: chr6:29,556,328
+INFO	2023-09-21 16:49:09	AddOrReplaceReadGroups	Processed   147,000,000 records.  Elapsed time: 00:22:25s.  Time for last 1,000,000:    9s.  Last read position: chr6:33,269,771
+INFO	2023-09-21 16:49:19	AddOrReplaceReadGroups	Processed   148,000,000 records.  Elapsed time: 00:22:35s.  Time for last 1,000,000:   10s.  Last read position: chr6:43,226,047
+INFO	2023-09-21 16:49:28	AddOrReplaceReadGroups	Processed   149,000,000 records.  Elapsed time: 00:22:44s.  Time for last 1,000,000:    8s.  Last read position: chr6:87,340,219
+INFO	2023-09-21 16:49:37	AddOrReplaceReadGroups	Processed   150,000,000 records.  Elapsed time: 00:22:53s.  Time for last 1,000,000:    9s.  Last read position: chr6:118,924,086
+INFO	2023-09-21 16:49:50	AddOrReplaceReadGroups	Processed   151,000,000 records.  Elapsed time: 00:23:06s.  Time for last 1,000,000:   12s.  Last read position: chr6:145,950,422
+INFO	2023-09-21 16:49:59	AddOrReplaceReadGroups	Processed   152,000,000 records.  Elapsed time: 00:23:15s.  Time for last 1,000,000:    9s.  Last read position: chr7:2,524,709
+INFO	2023-09-21 16:50:09	AddOrReplaceReadGroups	Processed   153,000,000 records.  Elapsed time: 00:23:25s.  Time for last 1,000,000:   10s.  Last read position: chr7:26,196,997
+INFO	2023-09-21 16:50:20	AddOrReplaceReadGroups	Processed   154,000,000 records.  Elapsed time: 00:23:36s.  Time for last 1,000,000:   11s.  Last read position: chr7:45,105,456
+INFO	2023-09-21 16:50:29	AddOrReplaceReadGroups	Processed   155,000,000 records.  Elapsed time: 00:23:45s.  Time for last 1,000,000:    8s.  Last read position: chr7:75,421,936
+INFO	2023-09-21 16:50:39	AddOrReplaceReadGroups	Processed   156,000,000 records.  Elapsed time: 00:23:55s.  Time for last 1,000,000:    9s.  Last read position: chr7:96,709,692
+INFO	2023-09-21 16:50:48	AddOrReplaceReadGroups	Processed   157,000,000 records.  Elapsed time: 00:24:04s.  Time for last 1,000,000:    8s.  Last read position: chr7:102,595,321
+INFO	2023-09-21 16:50:58	AddOrReplaceReadGroups	Processed   158,000,000 records.  Elapsed time: 00:24:14s.  Time for last 1,000,000:    9s.  Last read position: chr7:128,748,618
+INFO	2023-09-21 16:51:09	AddOrReplaceReadGroups	Processed   159,000,000 records.  Elapsed time: 00:24:25s.  Time for last 1,000,000:   11s.  Last read position: chr7:143,288,495
+INFO	2023-09-21 16:51:20	AddOrReplaceReadGroups	Processed   160,000,000 records.  Elapsed time: 00:24:36s.  Time for last 1,000,000:   10s.  Last read position: chr8:11,847,687
+INFO	2023-09-21 16:51:29	AddOrReplaceReadGroups	Processed   161,000,000 records.  Elapsed time: 00:24:45s.  Time for last 1,000,000:    9s.  Last read position: chr8:42,176,083
+INFO	2023-09-21 16:51:39	AddOrReplaceReadGroups	Processed   162,000,000 records.  Elapsed time: 00:24:55s.  Time for last 1,000,000:   10s.  Last read position: chr8:73,688,752
+INFO	2023-09-21 16:51:51	AddOrReplaceReadGroups	Processed   163,000,000 records.  Elapsed time: 00:25:07s.  Time for last 1,000,000:   11s.  Last read position: chr8:95,154,551
+INFO	2023-09-21 16:52:03	AddOrReplaceReadGroups	Processed   164,000,000 records.  Elapsed time: 00:25:19s.  Time for last 1,000,000:   12s.  Last read position: chr8:115,604,691
+INFO	2023-09-21 16:52:15	AddOrReplaceReadGroups	Processed   165,000,000 records.  Elapsed time: 00:25:31s.  Time for last 1,000,000:   11s.  Last read position: chr8:127,738,899
+INFO	2023-09-21 16:52:24	AddOrReplaceReadGroups	Processed   166,000,000 records.  Elapsed time: 00:25:40s.  Time for last 1,000,000:    8s.  Last read position: chr9:372,277
+INFO	2023-09-21 16:52:35	AddOrReplaceReadGroups	Processed   167,000,000 records.  Elapsed time: 00:25:51s.  Time for last 1,000,000:   11s.  Last read position: chr9:35,732,801
+INFO	2023-09-21 16:52:47	AddOrReplaceReadGroups	Processed   168,000,000 records.  Elapsed time: 00:26:03s.  Time for last 1,000,000:   11s.  Last read position: chr9:93,112,242
+INFO	2023-09-21 16:52:59	AddOrReplaceReadGroups	Processed   169,000,000 records.  Elapsed time: 00:26:15s.  Time for last 1,000,000:   12s.  Last read position: chr9:114,345,954
+INFO	2023-09-21 16:53:10	AddOrReplaceReadGroups	Processed   170,000,000 records.  Elapsed time: 00:26:26s.  Time for last 1,000,000:   10s.  Last read position: chr9:128,273,946
+INFO	2023-09-21 16:53:21	AddOrReplaceReadGroups	Processed   171,000,000 records.  Elapsed time: 00:26:37s.  Time for last 1,000,000:   11s.  Last read position: chr9:137,030,998
+INFO	2023-09-21 16:53:33	AddOrReplaceReadGroups	Processed   172,000,000 records.  Elapsed time: 00:26:49s.  Time for last 1,000,000:   11s.  Last read position: chrX:12,977,020
+INFO	2023-09-21 16:53:46	AddOrReplaceReadGroups	Processed   173,000,000 records.  Elapsed time: 00:27:02s.  Time for last 1,000,000:   13s.  Last read position: chrX:12,977,020
+INFO	2023-09-21 16:53:55	AddOrReplaceReadGroups	Processed   174,000,000 records.  Elapsed time: 00:27:11s.  Time for last 1,000,000:    9s.  Last read position: chrX:37,805,031
+INFO	2023-09-21 16:54:08	AddOrReplaceReadGroups	Processed   175,000,000 records.  Elapsed time: 00:27:24s.  Time for last 1,000,000:   12s.  Last read position: chrX:54,809,736
+INFO	2023-09-21 16:54:19	AddOrReplaceReadGroups	Processed   176,000,000 records.  Elapsed time: 00:27:35s.  Time for last 1,000,000:   11s.  Last read position: chrX:106,942,727
+INFO	2023-09-21 16:54:30	AddOrReplaceReadGroups	Processed   177,000,000 records.  Elapsed time: 00:27:46s.  Time for last 1,000,000:   10s.  Last read position: chrX:140,033,519
+[Thu Sep 21 16:54:35 CDT 2023] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 27.85 minutes.
+Runtime.totalMemory()=2889351168
+17:01:22.577 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs52/data/maiziezhou_lab/Summer_research2023/bam2vcf/gatk/gatk-package-4.0.3.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+17:01:22.788 INFO  HaplotypeCaller - ------------------------------------------------------------
+17:01:22.789 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.0.3.0
+17:01:22.789 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+17:01:22.789 INFO  HaplotypeCaller - Executing as liuh40@maizie3.vampire on Linux v3.10.0-1160.71.1.el7.x86_64 amd64
+17:01:22.789 INFO  HaplotypeCaller - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_162-b12
+17:01:22.789 INFO  HaplotypeCaller - Start Date/Time: September 21, 2023 5:01:22 PM CDT
+17:01:22.790 INFO  HaplotypeCaller - ------------------------------------------------------------
+17:01:22.790 INFO  HaplotypeCaller - ------------------------------------------------------------
+17:01:22.790 INFO  HaplotypeCaller - HTSJDK Version: 2.14.3
+17:01:22.790 INFO  HaplotypeCaller - Picard Version: 2.17.2
+17:01:22.790 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+17:01:22.790 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+17:01:22.790 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+17:01:22.790 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+17:01:22.790 INFO  HaplotypeCaller - Deflater: IntelDeflater
+17:01:22.791 INFO  HaplotypeCaller - Inflater: IntelInflater
+17:01:22.791 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+17:01:22.791 INFO  HaplotypeCaller - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+17:01:22.791 INFO  HaplotypeCaller - Initializing engine
+17:01:23.627 INFO  HaplotypeCaller - Done initializing engine
+17:01:23.650 INFO  HaplotypeCallerEngine - Disabling physical phasing, which is supported only for reference-model confidence output
+17:01:24.445 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/gpfs52/data/maiziezhou_lab/Summer_research2023/bam2vcf/gatk/gatk-package-4.0.3.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+17:01:24.448 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/gpfs52/data/maiziezhou_lab/Summer_research2023/bam2vcf/gatk/gatk-package-4.0.3.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+17:01:24.485 WARN  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+17:01:24.485 INFO  IntelPairHmm - Available threads: 60
+17:01:24.486 INFO  IntelPairHmm - Requested threads: 4
+17:01:24.486 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+17:01:24.543 INFO  ProgressMeter - Starting traversal
+17:01:24.543 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+17:01:35.181 INFO  ProgressMeter -         chr1:2397069              0.2                  8110          45746.0
+17:01:45.186 INFO  ProgressMeter -        chr1:16394023              0.3                 55060         160034.9
+17:01:55.207 INFO  ProgressMeter -        chr1:24841100              0.5                 83430         163246.8
+17:02:05.207 INFO  ProgressMeter -        chr1:29391545              0.7                 98790         145765.3
+17:02:15.213 INFO  ProgressMeter -        chr1:41144604              0.8                138260         163718.2
+17:02:25.214 INFO  ProgressMeter -        chr1:52772663              1.0                177300         175339.1
+17:02:35.214 INFO  ProgressMeter -        chr1:74350764              1.2                249480         211809.7
+17:02:45.231 INFO  ProgressMeter -        chr1:89008734              1.3                298500         221966.1
+17:02:55.480 INFO  ProgressMeter -       chr1:108697969              1.5                364350         240397.2
+17:03:05.496 INFO  ProgressMeter -       chr1:119035434              1.7                399040         237163.8
+17:03:15.644 INFO  ProgressMeter -       chr1:148749850              1.9                498230         269068.7
+17:03:25.661 INFO  ProgressMeter -       chr1:154334117              2.0                517080         256153.5
+17:03:35.725 INFO  ProgressMeter -       chr1:158939471              2.2                532670         243632.5
+17:03:45.725 INFO  ProgressMeter -       chr1:163641208              2.4                548530         233116.1
+17:03:55.732 INFO  ProgressMeter -       chr1:180881148              2.5                606260         240596.9
+17:04:05.733 INFO  ProgressMeter -       chr1:201483785              2.7                675130         251304.7
+17:04:15.733 INFO  ProgressMeter -       chr1:214447988              2.9                718630         251871.0
+17:04:25.733 INFO  ProgressMeter -       chr1:238098319              3.0                797830         264196.7
+17:04:35.841 INFO  ProgressMeter -       chr10:15103730              3.2                884690         277480.2
+17:04:45.860 INFO  ProgressMeter -       chr10:35530064              3.4                953020         284035.6
+17:04:55.860 INFO  ProgressMeter -       chr10:66625122              3.5               1056890         300086.6
+17:05:05.865 INFO  ProgressMeter -       chr10:89340112              3.7               1132950         307140.7
+17:05:15.865 INFO  ProgressMeter -      chr10:106507350              3.9               1190560         308805.9
+17:05:25.916 INFO  ProgressMeter -      chr10:133396159              4.0               1280530         318311.5
+17:05:35.920 INFO  ProgressMeter -       chr11:20408872              4.2               1350330         322305.2
+17:05:45.919 INFO  ProgressMeter -       chr11:56713910              4.4               1471640         337821.4
+17:05:55.921 INFO  ProgressMeter -       chr11:65662489              4.5               1501880         332057.6
+17:06:05.920 INFO  ProgressMeter -       chr11:77693126              4.7               1542350         328886.2
+17:06:15.920 INFO  ProgressMeter -      chr11:113883929              4.9               1663340         342513.0
+17:06:25.952 INFO  ProgressMeter -        chr12:4280746              5.0               1748720         348110.2
+17:06:36.311 INFO  ProgressMeter -       chr12:14884269              5.2               1784360         343401.5
+17:06:46.341 INFO  ProgressMeter -       chr12:42399035              5.4               1876320         349844.3
+17:06:56.344 INFO  ProgressMeter -       chr12:53171035              5.5               1912510         345841.6
+17:07:06.388 INFO  ProgressMeter -       chr12:66312068              5.7               1956670         343431.1
+17:07:16.397 INFO  ProgressMeter -       chr12:95711741              5.9               2054920         350415.8
+17:07:26.397 INFO  ProgressMeter -      chr12:113693208              6.0               2115210         350728.7
+17:07:36.397 INFO  ProgressMeter -      chr12:132818178              6.2               2179300         351638.0
+17:07:46.397 INFO  ProgressMeter -       chr13:35533317              6.4               2299500         361316.1
+17:07:56.397 INFO  ProgressMeter -       chr13:73657580              6.5               2426900         371602.7
+17:08:06.399 INFO  ProgressMeter -      chr13:113322378              6.7               2559380         382134.8
+17:08:16.402 INFO  ProgressMeter -       chr14:24210327              6.9               2643810         385152.7
+17:08:26.652 INFO  ProgressMeter -       chr14:51723242              7.0               2735820         388878.7
+17:08:36.653 INFO  ProgressMeter -       chr14:75004789              7.2               2813830         390710.2
+17:08:47.244 INFO  ProgressMeter -      chr14:102019839              7.4               2904250         393617.8
+17:09:01.673 INFO  ProgressMeter -      chr14:105743803              7.6               2916810         382842.9
+17:09:11.678 INFO  ProgressMeter -       chr15:34527146              7.8               3036390         390001.6
+17:09:21.701 INFO  ProgressMeter -       chr15:48728335              8.0               3084010         387797.3
+17:09:31.705 INFO  ProgressMeter -       chr15:65119150              8.1               3138940         386599.1
+17:09:41.722 INFO  ProgressMeter -       chr15:84670362              8.3               3204500         386721.9
+17:09:51.751 INFO  ProgressMeter -        chr16:1201808              8.5               3266550         386415.4
+17:10:01.751 INFO  ProgressMeter -       chr16:15581968              8.6               3314930         384556.7
+17:10:11.893 INFO  ProgressMeter -       chr16:31331928              8.8               3367850         383181.9
+17:10:21.910 INFO  ProgressMeter -       chr16:67542075              9.0               3488920         389557.2
+17:10:31.954 INFO  ProgressMeter -       chr16:89319522              9.1               3561990         390418.5
+17:10:41.970 INFO  ProgressMeter -        chr17:9947576              9.3               3599000         387387.7
+17:10:51.969 INFO  ProgressMeter -       chr17:32440569              9.5               3674400         388533.5
+17:11:01.997 INFO  ProgressMeter -       chr17:42722783              9.6               3709060         385387.6
+17:11:11.998 INFO  ProgressMeter -       chr17:58206968              9.8               3761080         384139.7
+17:11:23.568 INFO  ProgressMeter -       chr17:63754019             10.0               3779690         378584.2
+17:11:33.679 INFO  ProgressMeter -       chr17:76315687             10.2               3821900         376457.8
+17:11:43.839 INFO  ProgressMeter -       chr17:80296950             10.3               3835310         371581.0
+17:11:53.839 INFO  ProgressMeter -        chr18:5485385             10.5               3863710         368384.0
+17:12:04.003 INFO  ProgressMeter -       chr18:36034697             10.7               3965830         372110.5
+17:12:14.007 INFO  ProgressMeter -       chr18:58482330             10.8               4040860         373310.3
+17:12:24.014 INFO  ProgressMeter -        chr19:1393327             11.0               4118730         374730.9
+17:12:35.384 INFO  ProgressMeter -       chr19:11375463             11.2               4152610         371409.3
+17:12:45.473 INFO  ProgressMeter -       chr19:18576326             11.3               4177030         368058.1
+17:12:55.492 INFO  ProgressMeter -       chr19:38308853             11.5               4243220         368468.9
+17:13:05.510 INFO  ProgressMeter -       chr19:49614976             11.7               4281480         366477.7
+17:13:15.510 INFO  ProgressMeter -        chr2:10524871             11.8               4347070         366858.4
+17:13:25.510 INFO  ProgressMeter -        chr2:32619244             12.0               4421050         367926.7
+17:13:35.510 INFO  ProgressMeter -        chr2:58281521             12.2               4506920         369941.7
+17:13:45.510 INFO  ProgressMeter -        chr2:77786479             12.3               4572240         370238.4
+17:14:37.818 INFO  ProgressMeter -        chr2:88858633             13.2               4609280         348626.6
+17:14:48.288 INFO  ProgressMeter -       chr2:112646880             13.4               4688860         350025.9
+17:14:58.288 INFO  ProgressMeter -       chr2:144512949             13.6               4795380         353578.6
+17:15:08.288 INFO  ProgressMeter -       chr2:173733593             13.7               4893070         356401.8
+17:15:18.288 INFO  ProgressMeter -       chr2:198988535             13.9               4977510         358203.8
+17:15:28.288 INFO  ProgressMeter -       chr2:225111233             14.1               5064980         360178.5
+17:15:38.522 INFO  ProgressMeter -         chr20:410505             14.2               5123570         359978.6
+17:15:48.525 INFO  ProgressMeter -       chr20:25414133             14.4               5207290         361624.9
+17:15:58.542 INFO  ProgressMeter -       chr20:38370395             14.6               5250770         360465.2
+17:16:08.596 INFO  ProgressMeter -       chr20:58670475             14.7               5318790         360982.2
+17:16:18.596 INFO  ProgressMeter -       chr21:23536386             14.9               5416720         363516.7
+17:16:28.709 INFO  ProgressMeter -       chr21:42415763             15.1               5479870         363641.4
+17:16:38.709 INFO  ProgressMeter -       chr22:20846929             15.2               5563930         365180.7
+17:16:48.710 INFO  ProgressMeter -       chr22:22907618             15.4               5570850         361678.1
+17:16:58.725 INFO  ProgressMeter -       chr22:40022438             15.6               5628340         361493.2
+17:17:08.886 INFO  ProgressMeter -         chr3:9840562             15.7               5697530         361999.6
+17:17:19.064 INFO  ProgressMeter -        chr3:39396455             15.9               5796430         364356.4
+17:17:29.077 INFO  ProgressMeter -        chr3:52248626             16.1               5839670         363263.7
+17:17:39.095 INFO  ProgressMeter -        chr3:71696055             16.2               5904770         363537.5
+17:17:49.100 INFO  ProgressMeter -       chr3:113002103             16.4               6042710         368249.5
+17:17:59.101 INFO  ProgressMeter -       chr3:135821358             16.6               6119150         369158.0
+17:18:09.101 INFO  ProgressMeter -       chr3:160575361             16.7               6201950         370428.6
+17:18:19.113 INFO  ProgressMeter -       chr3:186572538             16.9               6288870         371913.4
+17:18:29.115 INFO  ProgressMeter -         chr4:5733883             17.1               6347390         371709.7
+17:18:39.118 INFO  ProgressMeter -        chr4:39771519             17.2               6461120         374711.5
+17:18:49.118 INFO  ProgressMeter -        chr4:72258473             17.4               6569690         377360.6
+17:18:59.118 INFO  ProgressMeter -       chr4:100287484             17.6               6663430         379115.6
+17:19:09.118 INFO  ProgressMeter -       chr4:134994286             17.7               6779420         382091.6
+17:19:19.123 INFO  ProgressMeter -       chr4:171110014             17.9               6900120         385273.5
+17:19:29.123 INFO  ProgressMeter -        chr5:16426229             18.1               7018840         388288.9
+17:19:39.352 INFO  ProgressMeter -        chr5:56882301             18.2               7154000         392068.7
+17:19:49.351 INFO  ProgressMeter -        chr5:83876663             18.4               7244350         393426.7
+17:19:59.440 INFO  ProgressMeter -       chr5:115905337             18.6               7351360         395625.4
+17:20:09.446 INFO  ProgressMeter -       chr5:140567653             18.7               7433900         396509.2
+17:20:19.445 INFO  ProgressMeter -       chr5:170138281             18.9               7532860         398247.2
+17:20:29.476 INFO  ProgressMeter -         chr6:3010214             19.1               7581210         397291.9
+17:20:39.544 INFO  ProgressMeter -        chr6:26545377             19.3               7659990         397921.2
+17:20:49.591 INFO  ProgressMeter -        chr6:33313698             19.4               7682850         395667.0
+17:20:59.591 INFO  ProgressMeter -        chr6:50990602             19.6               7742140         395327.2
+17:21:09.591 INFO  ProgressMeter -        chr6:88251348             19.8               7866600         398292.7
+17:21:19.649 INFO  ProgressMeter -       chr6:121449332             19.9               7977580         400512.4
+17:21:29.654 INFO  ProgressMeter -       chr6:150885255             20.1               8076010         402088.3
+17:21:39.739 INFO  ProgressMeter -        chr7:10941931             20.3               8179290         403850.7
+17:21:49.738 INFO  ProgressMeter -        chr7:41550904             20.4               8281630         405566.3
+17:21:59.738 INFO  ProgressMeter -        chr7:73215229             20.6               8387470         407424.1
+17:22:10.038 INFO  ProgressMeter -        chr7:98292274             20.8               8471410         408098.5
+17:22:20.038 INFO  ProgressMeter -       chr7:114033365             20.9               8524250         407373.2
+17:22:30.472 INFO  ProgressMeter -       chr7:135166536             21.1               8594910         407364.6
+17:22:40.472 INFO  ProgressMeter -          chr8:450933             21.3               8677390         408050.4
+17:22:50.472 INFO  ProgressMeter -        chr8:30679485             21.4               8778520         409595.9
+17:23:00.472 INFO  ProgressMeter -        chr8:62361610             21.6               8884450         411339.7
+17:23:10.499 INFO  ProgressMeter -        chr8:90625871             21.8               8978900         412521.1
+17:23:20.504 INFO  ProgressMeter -       chr8:100187772             21.9               9010910         410843.9
+17:23:30.508 INFO  ProgressMeter -       chr8:126557183             22.1               9099070         411733.5
+17:23:40.526 INFO  ProgressMeter -         chr9:7685677             22.3               9187060         412597.8
+17:23:50.611 INFO  ProgressMeter -        chr9:37784821             22.4               9287730         413993.8
+17:24:00.614 INFO  ProgressMeter -        chr9:83890987             22.6               9441620         417748.9
+17:24:10.627 INFO  ProgressMeter -       chr9:111934773             22.8               9535470         418808.9
+17:24:20.649 INFO  ProgressMeter -       chr9:129635944             22.9               9594890         418349.6
+17:24:31.162 INFO  ProgressMeter -         chrX:8542696             23.1               9653040         417694.0
+17:24:41.265 INFO  ProgressMeter -        chrX:23785256             23.3               9704010         416862.2
+17:24:51.391 INFO  ProgressMeter -        chrX:54810158             23.4               9807810         418288.7
+17:25:01.391 INFO  ProgressMeter -        chrX:91940657             23.6               9931870         420590.1
+17:25:11.391 INFO  ProgressMeter -       chrX:124666418             23.8              10041270         422242.7
+17:25:21.786 INFO  ProgressMeter -       chrX:155055145             24.0              10142930         423432.8
+17:25:31.786 INFO  ProgressMeter -   KI270728.1:1095001             24.1              10340750         428708.2
+17:25:33.807 INFO  HaplotypeCaller - No reads filtered by: AllowAllReadsReadFilter
+17:25:33.807 INFO  ProgressMeter -       KI270423.1:601             24.2              10375399         429544.9
+17:25:33.807 INFO  ProgressMeter - Traversal complete. Processed 10375399 total regions in 24.2 minutes.
+17:25:33.942 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 0.7171300500000001
+17:25:33.942 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 97.60404939600001
+17:25:33.942 INFO  SmithWatermanAligner - Total compute time in java Smith-Waterman : 189.95 sec
+17:25:36.372 INFO  HaplotypeCaller - Shutting down engine
+[September 21, 2023 5:25:36 PM CDT] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 24.23 minutes.
+Runtime.totalMemory()=2903506944

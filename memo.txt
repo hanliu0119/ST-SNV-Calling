@@ -1,0 +1,19 @@
+Split a large bam to bams:
+./split_bam.sh /data/maiziezhou_lab/Datasets/ST_datasets/10x_BC_6.5mm_Visium_CytAssist_FFPE/CytAssist_FFPE_Protein_Expression_Human_Breast_Cancer_possorted_genome_bam.bam 10000000 30
+
+Test the thresholds:
+python neighbor_rad_relation.py
+
+Merge Bams and generate VCFs:
+python main.py
+
+Process VCFs:
+1. python vcf2tables.py
+2. python process_vcf_tables.py
+3. python get_union_set.py
+4. python generate_matrix.py
+
+Analysis vcf tables and union set (parallel)
+1. python sum_snps.py ->  sum_snp_N.txt -> python analysis.py
+2. python clustering_matrix.py
+
