@@ -1,0 +1,41 @@
+# Node modules (for JavaScript projects)
+node_modules/
+
+# Python cache and distribution
+*.pyc
+__pycache__/
+*.egg-info/
+*.pyo
+*.egg
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets (adjust as necessary)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sql
+*.db
+*.json
+*.xml
+data/
+
+# Log and binary files
+*.log
+*.bin
+*.dat
+
+# Backup files
+*~
+*.bak
+
+# System Files
+.DS_Store  # macOS
+
+# Virtual Environment
+venv/
+*.venv
+.env
+
